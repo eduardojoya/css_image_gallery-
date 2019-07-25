@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -12,10 +16,19 @@ h1 {
     border-right: 2px solid pink;
     width: 400px;
     text-align: center;
+    margin-top: 10px;
+    /* box-shadow: 3px 3px 5px #000000; */
 }
 
+
+
 img {
-    width: 500px;
-    height: 500px;
-    margin: 5px;
+    width: 450;
+    height: 300;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
